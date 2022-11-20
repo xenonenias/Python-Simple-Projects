@@ -1,0 +1,29 @@
+print("Simple Calculator. Choose option: 1- addition, 2-subtravtion, 3-multiplication, 4-division, 5-end")
+
+while True:
+    option= int(input("Choose option: "))
+    if option == 1:
+        first_number= float(input("Write first number: "))
+        second_number= float(input("Write second number: "))
+        addition= first_number+second_number 
+        print("Addition of these numbers is: ", addition)
+    elif option == 2:
+        first_number= float(input("Write first number: "))
+        second_number= float(input("Write second number: "))
+        subtravtion= first_number-second_number 
+        print("Subtravtion of these numbers is: ", subtravtion)
+    elif option == 3:
+        first_number= float(input("Write first number: "))
+        second_number= float(input("Write second number: "))
+        multiplication= first_number*second_number 
+        print("Multiplication of these numbers is: ", multiplication)
+    elif option == 4:
+        first_number= float(input("Write first number: "))
+        second_number= float(input("Write second number: "))
+        division= first_number/second_number 
+        print("Division of these numbers is: ", division)
+    elif option == 5:
+        break
+    else:
+        print("You wrote wrong data. Please start again")
+        break
